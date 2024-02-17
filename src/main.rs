@@ -10,6 +10,7 @@ use crate::pointers::r#box::List::{Cons, Nil};
 use crate::pointers::r#rc::RcList::{Cons as RcCons, Nil as RcNil};
 use crate::training::linked_list::prototype_1::{ll_proto_1, ll_proto_1_1};
 use crate::training::linked_list::prototype_2::ll_proto_2;
+use crate::training::sum_2_nums::sum_2_nums::Sum2Nums;
 
 
 mod basic_variable_and_types;
@@ -26,7 +27,7 @@ mod pointers;
 mod training;
 
 // mod pointers#box;
-// fn main() {
+// fn main.rs() {
 //     println!("Hello, world!");
 //     let mut asd = 89;
 //     asd = 4;
@@ -48,6 +49,9 @@ fn main() {
     // ll_proto_1();
     // ll_proto_1_1();
     // ll_proto_2();
+
+    Sum2Nums::run();
+    return;
     let fifo_path = "/tmp/xterm_fifo";
 
     // Create a FIFO (named pipe)

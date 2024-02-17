@@ -1,7 +1,7 @@
 use std::fmt::Display;
 
 /**
-main aim of lifetimes is to prevent `dangling references`
+main.rs aim of lifetimes is to prevent `dangling references`
 
 When we specify lifetime parameters - we're not changing the lifetimes of any values
 passed in or returned. We're specifying that the borrow checker should reject any values that don't
